@@ -1,4 +1,8 @@
-var beer = require("./beer"),
+#!/usr/bin/env node
+
+process.title = 'cervezasquemedebelars';
+
+var beer = require("../beer.js"),
     request = require("request");
 
 request({

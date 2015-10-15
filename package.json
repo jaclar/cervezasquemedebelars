@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/jaclar/cervezasquemedebelars/issues"
   },
-  "homepage": "https://github.com/jaclar/cervezasquemedebelars#readme"
+  "homepage": "https://github.com/jaclar/cervezasquemedebelars#readme",
+  "bin": {
+    "cervezasquemedebelars": "./bin/cervezasquemedebelars.js"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  }
 }
